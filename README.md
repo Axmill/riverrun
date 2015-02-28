@@ -1,2 +1,4 @@
 # riverrun
-Random Haskell stuff
+Random Haskell stuff!
+
+Please view the Code Guidelines.
