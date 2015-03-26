@@ -1,6 +1,6 @@
 # PROJECT CODE GUIDELINES
 
-* Indents are 4 spaces.
+* Indents are tabs.
 
 * Group functions like this:
 ```haskell
