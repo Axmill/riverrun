@@ -1,0 +1,23 @@
+FACTORIALNOTATION(3)
+====================
+:doctype: manpage
+
+NAME
+----
+*FactorialNotation* - factorial function notation
+
+DESCRIPTION
+-----------
+*FactorialNotation* is a collection of operators (e.g. _+_, _-_, etc.) for
+Haskell.
+
+FUNCTIONS
+---------
+* *factorial* _x_ returns the product of *[1..* _x_ *]*.
+* _x_ *!!* _y_ returns *factorial* _x_ *** *factorial* _y_.
+* _x_ *!!!* _y_ returns *factorial (* _x_ *!!* _y_ *)*.
+* _x_ *!!!!* _y_ returns *factorial (* _x_ *!!!* _y_ *)*.
+
+AUTHOR
+------
+*FactorialNotation* was written by Axmill.
