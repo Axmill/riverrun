@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{textcomp}
+
+\title{A Notation for the Product of Factorials}
+\author{Axmill}
+\date{2015}
+
+\begin{document}
+	\maketitle
+	\section{Notation}
+	Let $n \in \mathbb{N}$.
+	\begin{align*}
+		n \mathbin{!!} n &= n! \cdot n!\\
+		n \mathbin{!!!} n &= (n \mathbin{!!} n)!\\
+		n \mathbin{!!!!} n &= (n \mathbin{!!!} n)!\\
+		&\mathrm{etc.}
+	\end{align*}
+	
+	\section{$f$}
+	Let $n g! n = n \mathbin{!!!} n$ if $g = 3$.
+	\begin{align*}
+		f_1 &= 2\\
+		f_2 &= 4\\
+		f_g &= (f_{g - 1}) \mathbin{f_{g - 1}!} (f_{g - 1})\\
+		f_3 &= (576!)! \implies f_3 > 10^{18}
+	\end{align*}
+\end{document}
