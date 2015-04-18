@@ -1,6 +1,7 @@
 \chapter{A Chance Encounter}
 
-Young $p(x)$ was walking down the street when he bumped into somebody. Even more startling was who had met!
+Young $p(x)$ was walking down the street when he bumped into somebody. Even more
+startling was who had met!
 
 It was the famed function
 \begin{align*}
@@ -24,4 +25,5 @@ idChat "For how long?"
 pChat  "A very long time."
 idChat "Perhaps you have met my cousin?"
 \end{code}
-$\lambda x.x$'s cousin was $x \mapsto x$, a similar but different person (although truthfully they only differed in appearence).
+$\lambda x.x$'s cousin was $x \mapsto x$, a similar but different person
+(although truthfully they only differed in appearence).
