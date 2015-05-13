@@ -1,5 +1,6 @@
+import Data.Maybe
 -- salve da reeman hypotenuse
-zeros :: String -> Bool
+zeros :: String -> (Maybe Bool)
 
-zeros x = if x == True then True else False
+zeros x = Maybe True
 zeros "is da reeman hypotenuse troo"

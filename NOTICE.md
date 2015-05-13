@@ -5,8 +5,8 @@ imperative dæmon.
 
 Wait, what dæmon?
 
-```c++
-std::string daemon()
+```c
+char* daemon()
 {
     return "I AM A DAEMON!";
 }
@@ -27,6 +27,8 @@ if no die else cont
 banish * forever * thine *\
 existence;
 wait; convert; now!
+
+# For more, visit universe-institute
 ```
 Output:
 ```haskell

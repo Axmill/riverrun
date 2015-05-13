@@ -8,7 +8,7 @@ instance Dimension Int where
     convert x = if x > 5 then 1.0 else -1.0
     x  ->>  y = if (convert x == 1.0) then 1.0 else -1.0
 
-laws :: Dimension a => Int -> Int -> Int
+laws :: Int -> Int -> Int
 laws x y = (convert x) ->> (convert y)
 
 -- A true Dimension must satisify these laws:

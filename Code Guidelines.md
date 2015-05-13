@@ -26,6 +26,6 @@ if superduperlongconditionthatislong
 * Write `do-notation` as follows:
 ```haskell
     badExample = do
-                    x <- 5
+        x <- 5
 ```
 * Use camelCase for functions
