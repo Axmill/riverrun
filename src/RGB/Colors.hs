@@ -14,7 +14,7 @@ white :: RGB
 white = RGB 255 255 255
 
 black :: RGB
-black = RGB 255 255 255
+black = RGB 0 0 0
 
 basicColors :: [RGB]
 basicColors = [red, green, blue, white, black]

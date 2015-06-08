@@ -6,5 +6,5 @@ import Classes
 (//) :: Int -> Int -> Int
 x // y = div x y
 
-halve :: [Pixel] -> [Pixel]
+halve :: Image -> Image
 halve x = map (// 2) x

@@ -12,12 +12,12 @@ who hadn't been seen for years!
 \begin{code}
 module ChatCharacters where
 pChat :: String -> IO ()
-pchat x = putStrLn x
+pChat = putStrLn
 
 pChat "Wow! I found the identity function!"
 
 idChat :: String -> IO ()
-idChat x = putStrLn x
+idChat = putStrLn
 
 idChat "I've been missing?"
 pChat  "Umm... yes."
@@ -26,4 +26,4 @@ pChat  "A very long time."
 idChat "Perhaps you have met my cousin?"
 \end{code}
 $\lambda x.x$'s cousin was $x \mapsto x$, a similar but different person
-(although truthfully they only differed in appearence).
+(although truthfully they only differed in appearance).

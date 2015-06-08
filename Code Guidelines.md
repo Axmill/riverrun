@@ -17,7 +17,7 @@ functionB s = putStrLn s
 
 * Do indent after `class` and `instance`
 
-* Write long `if-then else` statments like this:
+* Write long `if-then-else` statments like this:
 ```haskell
 if superduperlongconditionthatislong
     then True
@@ -25,7 +25,7 @@ if superduperlongconditionthatislong
 ```
 * Write `do-notation` as follows:
 ```haskell
-    badExample = do
-        x <- 5
+badExample = do
+    x <- 5
 ```
 * Use camelCase for functions
