@@ -14,9 +14,9 @@ Haskell.
 FUNCTIONS
 ---------
 * *factorial* _x_ returns the product of *[1..* _x_ *]*.
-* _x_ *!!* _y_ returns *factorial* _x_ *** *factorial* _y_.
-* _x_ *!!!* _y_ returns *factorial (* _x_ *!!* _y_ *)*.
+* _x_ *!!!* _y_ returns *factorial* _x_ *** *factorial* _y_.
 * _x_ *!!!!* _y_ returns *factorial (* _x_ *!!!* _y_ *)*.
+* _x_ *!!!!!* _y_ returns *factorial (* _x_ *!!!!* _y_ *)*.
 
 AUTHOR
 ------

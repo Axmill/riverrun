@@ -9,3 +9,9 @@ cabal-dev
 .cabal-sandbox/
 cabal.sandbox.config
 cabal.config
+
+# TeX Stuff
+.aux
+.log
+.pdf
+.synctex.gzs

@@ -2,7 +2,7 @@ module Dimensions where
 
 class Dimension a where
     convert :: a -> b
-    (->>)   :: a -> a -> a
+    (->>)   :: a -> a -> b
 
 instance Dimension Int where
     convert x = if x > 5 then 1.0 else -1.0
@@ -17,4 +17,4 @@ laws x y = (convert x) ->> (convert y)
 -- (convert x) ->> (convert y) == (convert x) ->> y (aka y is either 1 or -1)
 -- Thus, all uses of ->> are either (convert x) ->> 1 or (convert x) ->> -1
 
-laws 54 22
+--laws 54 22
