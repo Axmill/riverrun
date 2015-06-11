@@ -3,4 +3,4 @@ import Data.Maybe
 zeros :: String -> (Maybe Bool)
 
 zeros x = Maybe True
-zeros "is da reeman hypotenuse troo"
+main = zeros "is da reeman hypotenuse troo"

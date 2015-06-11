@@ -1,7 +1,6 @@
 module Logic where
 
 (==>) :: Bool -> Bool -> Bool
-
 x ==> y = not x || y
 
 (<==>) :: Bool -> Bool -> Bool

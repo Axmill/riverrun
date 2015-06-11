@@ -15,3 +15,13 @@ x !!!! y = factorial (x !!! y)
 (!!!!!) :: Integer -> Integer -> Integer
 0 !!!!! 0 = 1
 x !!!!! y = factorial (x !!!! y)
+
+-- These aren't exported
+
+(!!!!!!) :: Integer -> Integer -> Integer
+0 !!!!!! 0 = 1
+x !!!!!! y = factorial (x !!!!! y)
+
+(!!!!!!!) :: Integer -> Integer -> Integer
+0 !!!!!!! 0 = 1
+x !!!!!!! y = factorial (x !!!!!! y)
